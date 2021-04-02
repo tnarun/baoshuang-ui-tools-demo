@@ -1,3 +1,19 @@
+@mixin bgImg {
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@mixin content {
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .DSDemo {
   background-color: black;
   position: relative;
@@ -7,7 +23,8 @@
     width: 3352px; height: 137px;
     right: 0px; top: 0px;
 
-    img { width: 100%; height: 100% }
+    img { @include bgImg; }
+    .content { @include content; }
   }
 
   .progressIndex {
@@ -15,15 +32,18 @@
     width: 462px; height: 564px;
     left: 19px; top: 207px;
 
-    img { width: 100%; height: 100% }
+    img { @include bgImg; }
+    .content { @include content; }
   }
 
   .personStatus {
     position: absolute;
     width: 458px; height: 311px;
     left: 21px; bottom: 1036px;
+    display: grid;
 
-    img { width: 100%; height: 100% }
+    img { @include bgImg; }
+    .content { @include content; }
   }
 
   .equipments {

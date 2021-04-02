@@ -29,12 +29,15 @@
   }
 }
 
+.items {
+  margin-bottom: 1em;
+}
 .items .item {
   @include line();
 
   > span {
     background-color: rgba(black, 0.1);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'monaco', 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
   }

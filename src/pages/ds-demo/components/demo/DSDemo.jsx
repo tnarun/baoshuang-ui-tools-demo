@@ -1,6 +1,8 @@
 import React from 'react'
 import css from './DSDemo.scss'
+
 import UITimeBar from '../ui/UITimeBar'
+import UIPersonStatus from '../ui/UIPersonStatus'
 
 // import personStatusImg from '../../../../assets/ds-demo/人物状态-458-311.png'
 import personStatusImg from '../../../../assets/ds-demo/人物状态-empty.png'
@@ -23,6 +25,9 @@ class DSDemo extends React.Component {
 
       <div className={ css.personStatus }>
         <img src={ personStatusImg } alt='' />
+        <div className={ css.content }>
+          <UIPersonStatus />
+        </div>
       </div>
 
       <div className={ css.equipments }>

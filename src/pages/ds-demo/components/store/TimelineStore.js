@@ -75,7 +75,18 @@ let DATA = {
     { time: '9M16S', color: '#d6df7c', text: '' },
     { time: '9M30S', color: '#75c83e', text: '' },
     { time: '10M5S', color: '#2778a7', text: '' },
-  ]
+  ],
+
+  PERSON_STATUS: {
+    init: {
+      灵魂等级: 6,
+      体力: 9, 敏捷: 11,
+      智力: 15, 魔力: 15,
+      耐力: 10, 信仰: 6,
+      力量: 9, 运气: 11,
+    },
+    changes: []
+  }
 }
 
 export default TimelineStore
