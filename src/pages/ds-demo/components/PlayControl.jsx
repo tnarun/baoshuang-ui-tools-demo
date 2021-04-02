@@ -1,3 +1,4 @@
+import React from 'react'
 import css from './PlayControl.scss'
 import { observer, inject } from 'mobx-react'
 

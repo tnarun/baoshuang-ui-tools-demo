@@ -1,3 +1,4 @@
+import React from 'react'
 import css from './Layout4K.scss'
 import { observer, inject } from 'mobx-react'
 

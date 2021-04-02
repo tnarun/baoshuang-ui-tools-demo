@@ -1,3 +1,4 @@
+import React from 'react'
 import css from './DSDemo.scss'
 import UITimeBar from '../ui/UITimeBar'
 
@@ -13,19 +14,19 @@ class DSDemo extends React.Component {
   render () {
     return <div className={ css.DSDemo }>
       <div className={ css.topStatus }>
-        <img src={ topStatusImg } />
+        <img src={ topStatusImg } alt='' />
       </div>
 
       <div className={ css.progressIndex }>
-        <img src={ progressIndexImg } />
+        <img src={ progressIndexImg } alt='' />
       </div>
 
       <div className={ css.personStatus }>
-        <img src={ personStatusImg } />
+        <img src={ personStatusImg } alt='' />
       </div>
 
       <div className={ css.equipments }>
-        <img src={ equipmentsImg } />
+        <img src={ equipmentsImg } alt='' />
       </div>
 
       <div className={ css.timebar }>
