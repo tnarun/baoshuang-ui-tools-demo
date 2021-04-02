@@ -1,0 +1,18 @@
+@import "./vars";
+
+.Layout4K {
+  width: $LAYOUT_4K_WIDTH;
+  height: $LAYOUT_4K_HEIGHT;
+  background-color: rgba(white, $GS5);
+
+  // position: absolute;
+  // top: 0; left: 0; right: 0; bottom: 0;
+  // margin: auto;
+
+  transform-origin: 0 0;
+  transform: scale(0.3);
+
+  display: grid;
+  box-shadow: 0 0 1em rgba(white, 0.618);
+  font-size: 2em;
+}

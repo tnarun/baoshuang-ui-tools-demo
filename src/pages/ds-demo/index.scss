@@ -1,0 +1,29 @@
+@import "./components/vars";
+
+.index {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  grid-template-rows: 1fr 80px;
+}
+
+.RenderArea {
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(white, $GS4);
+}
+
+.EventsArea {
+  background-color: rgba(white, $GS5);
+  border-left: solid 1px rgba(white, $GS3);
+}
+
+.ControlArea {
+  grid-column: span 2;
+
+  background-color: rgba(white, $GS5);
+  border-top: solid 1px rgba(white, $GS3);
+  display: grid;
+}

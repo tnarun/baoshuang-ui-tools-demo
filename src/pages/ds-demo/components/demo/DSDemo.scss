@@ -1,0 +1,51 @@
+.DSDemo {
+  background-color: black;
+  position: relative;
+
+  .topStatus {
+    position: absolute;
+    width: 3352px; height: 137px;
+    right: 0px; top: 0px;
+
+    img { width: 100%; height: 100% }
+  }
+
+  .progressIndex {
+    position: absolute;
+    width: 462px; height: 564px;
+    left: 19px; top: 207px;
+
+    img { width: 100%; height: 100% }
+  }
+
+  .personStatus {
+    position: absolute;
+    width: 458px; height: 311px;
+    left: 21px; bottom: 1036px;
+
+    img { width: 100%; height: 100% }
+  }
+
+  .equipments {
+    position: absolute;
+    width: 460px; height: 773px;
+    left: 21px; bottom: 219px;
+
+    img { width: 100%; height: 100% }
+  }
+
+  .timebar {
+    position: absolute;
+    left: 36px; bottom: 38px; right: 36px; height: 86px;
+    background-color: #202020;
+    display: grid;
+
+    label {
+      position: absolute;
+      line-height: 32px; font-size: 32px;
+      left: 16px; top: -44px;
+      color: #bfd4ac;
+      width: 10em;
+    }
+  }
+}

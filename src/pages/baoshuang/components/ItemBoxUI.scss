@@ -1,0 +1,51 @@
+.ItemBox {
+  display: inline-flex;
+  border: solid 1px rgba(white, 0.2);
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: rgba(white, 0.1);
+
+  .gc, .sc, .cc { 
+    margin-right: 2em;
+    display: flex;
+    align-items: center;
+
+    .c {
+      display: block;
+      width: 3em; height: 3em;
+      border-radius: 100%;
+      border: solid 4px rgba(white, 0.2);
+      box-sizing: border-box;
+    }
+
+    .i {
+      display: flex;
+      flex-direction: column;
+      margin-left: .5em;
+
+      span.t {
+
+      }
+
+      span.n {
+        font-size: 2em;
+        font-weight: bold;
+        width: 2em;
+        font-family: 'Courier New', Courier, monospace;
+      }
+    }
+  }
+
+  .gc .c { background-color: gold; }
+  .sc .c { background-color: silver; }
+  .cc .c { background-color: #B87333; }
+
+  .gc .t { color: lighten(gold, 20%); }
+  .sc .t { color: lighten(silver, 20%); }
+  .cc .t { color: lighten(#B87333, 20%); }
+
+  .gc .n { color: lighten(gold, 20%); }
+  .sc .n { color: lighten(silver, 20%); }
+  .cc .n { color: lighten(#B87333, 20%); }
+}

@@ -1,0 +1,33 @@
+.ProgressBar {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+
+  .time {
+    width: 4em;
+  }
+
+  .bar {
+    width: 24em;
+    height: .5em;
+    background-color: rgba(white, 0.5);
+    border-radius: 3px;
+    position: relative;
+
+    .inner {
+      height: .5em;
+      background-color: rgba(white, 0.618);
+      border-radius: 3px;
+    }
+
+    .event {
+      position: absolute;
+      width: 0; height: 0;
+      // background-color: coral;
+      border: solid 5px transparent;
+      border-left-color: gold;
+      border-bottom-color: gold;
+      top: 10px;
+    }
+  }
+}

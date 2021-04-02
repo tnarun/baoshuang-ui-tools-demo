@@ -1,0 +1,17 @@
+.PlayBtn button {
+  border: solid 2px cyan;
+  background-color: transparent;
+  color: cyan;
+  padding: .5em 1em;
+  border-radius: .3em;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: rgba(cyan, 0.2);
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+  }
+}

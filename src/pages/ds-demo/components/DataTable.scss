@@ -1,0 +1,48 @@
+.DataTable {
+  font-size: .8em;
+  padding: .5em;
+}
+
+.dataSetTitle {
+  font-weight: bold;
+  color: gold;
+  margin-bottom: .5em;
+  display: block;
+}
+
+@mixin line () {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .25em;
+  margin-bottom: .25em;
+  > span {
+    border: solid 1px rgba(white, 0.3);
+    padding: .2em .4em;
+    background-color: rgba(white, 0.1);
+  }
+}
+
+.itemsHeader {
+  @include line();
+  > span {
+    color: cyan;
+  }
+}
+
+.items .item {
+  @include line();
+
+  > span {
+    background-color: rgba(black, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+  }
+
+  > span .colorBlock {
+    display: block;
+    width: .75em; height: .75em;
+    border-radius: .2em;
+    margin-right: .5em;
+  }
+}
