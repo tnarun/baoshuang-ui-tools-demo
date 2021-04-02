@@ -1,0 +1,19 @@
+{
+  "env": {
+    "default": {"presets": []},
+    "withie": {"presets": []},
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            },
+            "useBuiltIns": false
+          }
+        ]
+      ]
+    }
+  }
+}

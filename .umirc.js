@@ -1,5 +1,9 @@
 import path from 'path'
 
+const getRootPath = (subPath) => {
+  return path.resolve(__dirname, subPath)
+}
+
 // ref: https://umijs.org/config/
 export default {
   hash: true,
@@ -10,7 +14,7 @@ export default {
       antd: false,
       dva: false,
       dynamicImport: false,
-      title: 'BaoShuang UI DEMO',
+      title: 'BaoShuang UI Demo',
       dll: false,
       
       routes: {
@@ -21,6 +25,6 @@ export default {
     }],
   ],
   alias: {
-    '@web-components': path.resolve(__dirname, 'sub-packages/web-components')
+    '@web-components': getRootPath('sub-packages/web-components')
   }
 }
