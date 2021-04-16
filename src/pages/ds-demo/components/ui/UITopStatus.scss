@@ -1,0 +1,20 @@
+.UITopStatus {
+  font-size: 32px;
+  line-height: 1;
+
+  label {
+    position: absolute;
+    width: 5em;
+    text-align: left;
+  }
+
+  label:nth-child(1) { top: 53px; left: 230px; }
+
+  label:nth-child(2) { top: 53px; left: 820px; color: #888; }
+  label:nth-child(3) { top: 53px; left: 1360px; color: #888; }
+  label:nth-child(4) { top: 53px; left: 1640px; color: #888; }
+
+  // label:nth-child(5) { top: 157px; right: 24px; }
+
+  label:nth-child(6) { top: 53px; right: 100px; color: #888; text-align: right;}
+}

@@ -3,6 +3,7 @@ import css from './DSDemo.scss'
 
 import UITimeBar from '../ui/UITimeBar'
 import UIPersonStatus from '../ui/UIPersonStatus'
+import UITopStatus from '../ui/UITopStatus'
 
 // import personStatusImg from '../../../../assets/ds-demo/人物状态-458-311.png'
 import personStatusImg from '../../../../assets/ds-demo/人物状态-empty.png'
@@ -17,6 +18,9 @@ class DSDemo extends React.Component {
     return <div className={ css.DSDemo }>
       <div className={ css.topStatus }>
         <img src={ topStatusImg } alt='' />
+        <div className={ css.content }>
+          <UITopStatus />
+        </div>
       </div>
 
       <div className={ css.progressIndex }>
