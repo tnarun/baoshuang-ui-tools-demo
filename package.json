@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "start": "HMR=none umi dev",
+    "start-win": "set HMR=none && umi dev",
     "build": "umi build",
     "test": "umi test",
     "lint": "eslint --ext .js src mock tests",
