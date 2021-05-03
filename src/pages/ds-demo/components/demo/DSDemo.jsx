@@ -4,6 +4,7 @@ import css from './DSDemo.scss'
 import UITimeBar from '../ui/UITimeBar'
 import UIPersonStatus from '../ui/UIPersonStatus'
 import UITopStatus from '../ui/UITopStatus'
+import UIProgressItems from '../ui/UIProgressItems'
 
 // import personStatusImg from '../../../../assets/ds-demo/人物状态-458-311.png'
 import personStatusImg from '../../../../assets/ds-demo/人物状态-empty.png'
@@ -25,6 +26,9 @@ class DSDemo extends React.Component {
 
       <div className={ css.progressIndex }>
         <img src={ progressIndexImg } alt='' />
+        <div className={ css.content }>
+          <UIProgressItems />
+        </div>
       </div>
 
       <div className={ css.personStatus }>

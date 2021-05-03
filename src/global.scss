@@ -1,1 +1,11 @@
 @import "../sub-packages/web-components/scss/global-reset";
+
+@font-face {
+  font-family: 'iconfont';  /* project id 2492678 */
+  src: url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.eot');
+  src: url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2492678_m0bf2p7lc6q.svg#iconfont') format('svg');
+}

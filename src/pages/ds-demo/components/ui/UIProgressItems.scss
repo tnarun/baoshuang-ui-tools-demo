@@ -1,0 +1,28 @@
+.UIProgressItems {
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 10px; left: 10px; right: 10px; bottom: 10px;
+  overflow: hidden;
+
+  .items {
+    position: relative;
+    top: 248px; left: 110px;
+    line-height: 50px;
+    transition: all 1s linear;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; top: 0; height: 150px;
+    background: linear-gradient(black 30%, transparent 100%);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0; height: 150px;
+    background: linear-gradient(transparent 0%, black 70%);
+  }
+}

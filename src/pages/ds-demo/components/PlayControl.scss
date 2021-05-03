@@ -20,6 +20,15 @@
   font-size: .8em;
   display: flex;
   align-items: center;
+
+  .t {
+    width: 8em;
+  }
+
+  .l {
+    margin-right: .5em;
+    color: gold;
+  }
 }
 
 .Bar {
@@ -28,10 +37,25 @@
   padding-right: 4em;
 
   .outer {
-    background-color: rgba(white, $GS4);
+    background-color: rgba(white, $GS3);
     display: flex;
     .inner {
       background-color: themeColor(tna, base);
+    }
+  }
+}
+
+.Buttons {
+  .btn {
+    color: themeColor(tna, base);
+    background-color: transparent;
+    border: solid 1px themeColor(tna, base);
+    font-size: 1.2em;
+    padding: 0;
+    height: 2em;
+    width: 2em;
+    &:hover {
+      color: black;
     }
   }
 }
