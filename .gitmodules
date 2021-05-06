@@ -1,3 +1,9 @@
 [submodule "sub-packages/web-components"]
 	path = sub-packages/web-components
 	url = https://github.com/tnarun/web-components.git
+[submodule "sub-packages/item-ui"]
+	path = sub-packages/item-ui
+	url = https://github.com/tnarun/baoshuang-ui-item.git
+[submodule "sub-packages/web-sdk-oss-upload"]
+	path = sub-packages/web-sdk-oss-upload
+	url = https://github.com/tnarun/web-sdk-oss-upload.git

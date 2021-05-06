@@ -25,6 +25,8 @@ export default {
     }],
   ],
   alias: {
-    '@web-components': getRootPath('sub-packages/web-components')
+    '@web-components': getRootPath('sub-packages/web-components'),
+    '@item-ui': getRootPath('sub-packages/item-ui'),
+    '@web-sdk-oss-upload': getRootPath('sub-packages/web-sdk-oss-upload'),
   }
 }
